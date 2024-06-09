@@ -1,10 +1,16 @@
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import './App.css'
 import CatHeader from './components/CatHeader'
 import CatFacts from './components/CatFacts'
 
 function App() {
+  
+useEffect(() => {
+  
+  document.title = "Cat ser";
+    
 
+}, []);
 
   return (
     <>
